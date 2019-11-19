@@ -4,23 +4,23 @@
 	<head>
 		<title>Repeat Exam Registration</title>
 	</head>
-	<body style="background-color:#6696C8" align=center>
+	<body style="background-color:#6696C8" align="center">
 		<!-------------------------------Header Design--------------------->
-		<div class="header" align="center">
+		<div class="header" >
 			
 			<img style="width: 120px; height: 120px;" src="../images/logo.png">
 			<p style="color: white">74/A Green Road, Farmgate Dhaka- 1215 </p>
-			<h1 style="color: white">UAP REPEAT EXAM REGISTRATION</h1>
+			<h1 style="color: white">SUBMIT REGISTRATION FORM</h1>
 			
 		</div>
 		<!-------------------------------Form Design--------------------->
-		<div class="form">
+		<div class="form" >
 			
-			<form name="signupform" method="post" action="functions/signup.php">
-				<input type="text" style="width: 20em;  height: 2em;" size=25 name="regid" placeholder="Registration" required><br><br>
-				<input type="Password" style="width: 20em;  height: 2em;" size=25 name="pwd" placeholder="Password" required><br>
+			<form name="regform" method="post" action="functions/signup.php">
+				<input type="text" style="width: 20em;  height: 2em;" size=25 name="name" placeholder="Name" required><br><br>
+				<input type="text" style="width: 20em;  height: 2em;" size=25 name="pwd" placeholder="Registration No" required><br>
 				<br>
-				<input type="Password" style="width: 20em;  height: 2em;" size=25 name="Conpwd" placeholder="Confirm Password" required><br>
+				<input type="text" style="width: 20em;  height: 2em;" size=25 name="SubCode" placeholder="Subject Code" required><br>
 				<br>
 				<input type="submit" style="background-color: #0076FF;color:white;width: 20em;  height: 4em;" onclick="return check(this.form)" value="Login">
 				<p>Already have an account?<a href="../index.html">Login!</a></p>

@@ -4,31 +4,28 @@
 	<head>
 		<title>Repeat Exam Registration</title>
 	</head>
-	<body>
+	<body style="background-color:#6696C8" align="center">
+
 		<!-------------------------------Header Design--------------------->
 		<div class="header">
+			
 			<img style="width: 120px; height: 120px;" src="images/logo.png">
-			<p>74/A Green Road, Farmgate Dhaka- 1215 </p>
-			<h1>UAP REPEAT EXAM REGISTRATION</h1>
+			<p style="color: white">74/A Green Road, Farmgate Dhaka- 1215 </p>
+			<h1 style="color: white">UAP REPEAT EXAM REGISTRATION</h1>
+			
 		</div>
-
-        <!-------------------------------Header Design--------------------->
-
+		<!-------------------------------Form Design--------------------->
 		<div class="form">
-			<form name="loginForm" method="post" action="login.php">
-			<input type="text" size=25 name="regid" placeholder="Registration" required><br>
-			<input type="Password" size=25 name="pwd" placeholder="Password" required><br>
-			<input type="submit" onclick="return check(this.form)" value="Login">
+			
+			<form name="loginForm" method="post" action="functions/login.php">
+				<input type="text" style="width: 20em;  height: 2em;" size=25 name="regid" placeholder="Registration" required><br><br>
+				<input type="Password" style="width: 20em;  height: 2em;" size=25 name="pwd" placeholder="Password" required><br>
+				<br>
+				<input type="submit" style="background-color: #0076FF;color:white;width: 20em;  height: 4em;" onclick="return check(this.form)" value="Login">
+				<p>Don't have any account? <a href="signup/signup.html">Sign Up</a></p>
 			</form>
+			
 		</div>
-		<p>Don't have any account? <a href="signup/signup.html">Sign Up</a></p>
-
-
-
-
-
-
-
-
+		
 	</body>
 </html>
