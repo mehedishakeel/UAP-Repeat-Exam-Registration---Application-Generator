@@ -16,12 +16,12 @@
 		<!-------------------------------Form Design--------------------->
 		<div style="position: absolute;left: 550px; top: 350px;" align="center"class="form">
 			
-			<form name="loginForm" method="post" action="formsubmition/formsub.html">
+			<form name="loginForm" method="post" action="formsubmition/formsub.php">
 				<input type="text" style="width: 20em;  height: 2em;" size=25 name="regid" pattern=".{8,8}" placeholder="Registration" required><br><br>
 				<input type="Password" style="width: 20em;  height: 2em;" size=25 name="pwd" minlength="6"  placeholder="Password" required><br>
 				<br>
 				<input type="submit" style="background-color: #0076FF;color:white;width: 20em;  height: 4em;" onclick="return check(this.form)" value="Login">
-				<p>Don't have any account? <a href="signup/signup.html">Sign Up</a></p>
+				<p>Don't have any account? <a href="signup/signup.php">Sign Up</a></p>
 			</form>
 			
 		</div>

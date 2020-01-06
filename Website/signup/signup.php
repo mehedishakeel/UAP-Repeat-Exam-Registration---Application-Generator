@@ -23,7 +23,7 @@
 				<input type="Password" style="width: 20em;  height: 2em;" size=25 name="Conpwd" minlength="6" placeholder="Confirm Password" required><br>
 				<br>
 				<input type="submit" style="background-color: #0076FF;color:white;width: 20em;  height: 4em;" onclick="return check(this.form)" value="Sign Up!">
-				<p>Already have an account?<a href="../index.html">Login!</a></p>
+				<p>Already have an account?<a href="../index.php">Login!</a></p>
 			</form>
 		</div>
 		
