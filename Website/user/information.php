@@ -36,7 +36,7 @@
                 }
                 else
                     $Error_No = -1;
-                // header('Location: profile.php');
+                header('Location: profile.php');
 
             }
             else
