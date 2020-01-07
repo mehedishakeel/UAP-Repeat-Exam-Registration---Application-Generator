@@ -2,41 +2,11 @@
 <head>
 	<title>Repeat Exam Registration</title>
 	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-  	<style type="text/css">
-  		body{
-			margin: 0px;
-			background-color: #6696C8;
-		}
-		.leftside{
-			/* background-color: gray; */
-			min-height: 100%; 
-			font-family: 'Montserrat', sans-serif;
-			color: white;
-		}
-		.rightside{
-			/* background-color: red; */
-			border-left: 1.5px solid white;
-			min-height: 100%;
-		}
-		.profile-photo{
-			border-style: 30px solid white;
-			border-radius: 250px;
-			height: 200px;
-			width: 200px;
-		}
-		.list-group-item{
-			
-			background-color: #6696C8;
-			border-radius: 0px;
-			border: none;
-			color: white;
-			font-family: 'Montserrat', sans-serif;
-			font-size: 15px;
-		}
-  	</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class = "container-fluid">
@@ -50,8 +20,7 @@
 					</div>
 				</div>
 				<div class = "text-center" style="letter-spacing: 1px; margin-top: -20px;">
-					<h3>Md. All Mamun</h3>
-					<h3>Reg No: 16201071</h3>
+					<!-- PHP CODE -->
 				</div>
 				<br>
 				<h4>Course List</h4>
