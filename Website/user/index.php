@@ -1,4 +1,5 @@
 <?php 
+    session_start();
     $reg_no = "";
     $s_password = "";
     $Error_No = 0;
