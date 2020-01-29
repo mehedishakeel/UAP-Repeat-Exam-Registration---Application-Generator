@@ -67,7 +67,7 @@
         while( $row = mysqli_fetch_array( $user_query ) ){
             $c_n = $row['course_name'];
             $c_c = $row['course_code'];
-            $query = mysqli_query(mysqli_connect('localhost','root','','repeat'),"INSERT INTO student_reg( reg_no , course_code , course_name ) VALUES ('$reg_no' , '$c_c','$c_n')");
+            $query = mysqli_query(mysqli_connect('localhost','root','','repeat'),"INSERT INTO student_reg( reg_no , course_code , course_name , status) VALUES ('$reg_no' , '$c_c','$c_n' , 'unread')");
             $success = 1;
             
             

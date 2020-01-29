@@ -33,6 +33,7 @@
                 
                 if( !empty($_POST['advisor']) ){
                     $advisor = $_POST['advisor'];
+                    $user_query = mysqli_query(mysqli_connect('localhost','root','','repeat'),"Insert into student_advisor(reg_no,ad_id) values ('$reg_no','$advisor' )");
                 }
                 else
                     $Error_No = -1;
@@ -87,8 +88,8 @@
                 </div>
 
                 <br>
-                <div class = "row">
-                    <div class = "col-sm-4 col-sm-offset-4">
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
                         <?php
                             if( $Error_No == -1  ){
                                 echo '<div class="alert alert-warning text-center">
@@ -148,7 +149,7 @@
                                         
                                         while( $row = mysqli_fetch_array( $user_query ) )
                                         {
-                                            echo '<option>'.$row['first_name'].' '.$row['last_name'].'( '.$row['dept'].' ) '.'</option>';
+                                            echo '<option value = "'.$row['ad_id'].'">'.$row['first_name'].' '.$row['last_name'].'( '.$row['dept'].' ) '.'</option>';
                                         }
                                     ?>
                                 </select>

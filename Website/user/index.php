@@ -37,7 +37,7 @@
                 if ($Error_No == 1)
                 {
                     $_SESSION['reg_no'] = $reg_no;
-                    header('Location: profile.php');
+                    header('Location: ../adviser/profile.php');
                 } 
                 else{
                     $Error_No = -2;
